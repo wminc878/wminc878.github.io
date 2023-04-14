@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Wil Mincy</title>
+    <title>Contact us - Wil Mincy</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
@@ -24,13 +24,13 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/home-bg.jpg');">
+    <header class="masthead" style="background-image: url('assets/img/contact-bg.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1>Greek Exegesis</h1><span class="subheading">A tool for studying God's Word</span>
+                        <h1>Contact Me</h1><span class="subheading">Have questions? I have answers.</span>
                     </div>
                 </div>
             </div>
@@ -38,38 +38,28 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-lg-8">
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title">Χαρειν, αδελφοσ!</h2>
-                        <h3 class="post-subtitle">Koine Greek is the original language that the New Testament was written in.</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#">Wil Mincy on April 14th, 2023</a></p>
-                </div>
-                <hr>
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title">Exegesis is the process dealing with the contextual interpretation of a passage of Scripture, which draws truth out of the intended meaning of the text.</h2>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#"><em>Wil Mincy on April 12th, 2023</em></a></p>
-                </div>
-                <hr>
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title"> Greek exegesis concerns drawing the meaning out of a text by using the original language.</h2>
-                        <h3 class="post-subtitle">This way we can look at the original grammatical structures and relationships more closely.</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#"><em>Wil Mincy on April 11th, 2023</em></a></p>
-                </div>
-                <hr>
-                <div class="post-preview"><a href="#">
-                        <h2 class="post-title">Exegesis of the Word of God is necessary for proclaiming His Word.</h2>
-                        <h3 class="post-subtitle">God's Word requires diligent study and faithful interpretation!&nbsp;</h3>
-                    </a>
-                    <p class="post-meta">Posted by&nbsp;<a href="#"><em>Wil Mincy on April 10th, 2023</em></a></p>
-                </div>
-                <hr>
-                <div class="clearfix"><button class="btn btn-primary float-end" type="button">Older Posts&nbsp;⇒</button></div>
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                <form id="contactForm" name="sentMessage">
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label" for="name">Name</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-floating controls mb-3"><textarea class="form-control" id="message" data-validation-required-message="Please enter a message." required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div id="success"></div>
+                    <div class="mb-3"><button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button></div>
+                </form>
             </div>
         </div>
     </div>
+    <hr>
     <footer>
         <div class="container">
             <div class="row">
